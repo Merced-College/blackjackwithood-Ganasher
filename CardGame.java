@@ -4,6 +4,38 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java..lang.math; //added math
+
+
+public class Card() {
+    private String suit;
+    private String name;
+    private String picture;
+    private int value;
+	
+	public void Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
+	suit = cardSuit;
+ 	name = cardName;
+	value = cardValue;
+	picture = cardPicture;
+	
+	}
+			// accessors
+		public String getSuit() {
+		    return suit;
+		}
+		public String getName() {
+		    return name;
+		}
+		public int getValue() {
+		    return value;
+		}
+		public String getPicture() {
+		    return picture;
+		}
+	
+}
+
 
 public class CardGame {
 
