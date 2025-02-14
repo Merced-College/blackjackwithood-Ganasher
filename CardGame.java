@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.lang.math; //added math
 
-
+//card class by gabriel bostic and Uriel Ramos
 public class Card {
     private String suit;
     private String name;
