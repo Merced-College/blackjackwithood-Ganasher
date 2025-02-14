@@ -4,16 +4,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java..lang.math; //added math
+import java.lang.math; //added math
 
 
-public class Card() {
+public class Card {
     private String suit;
     private String name;
     private String picture;
     private int value;
 	
-	public void Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
+	public Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
 	suit = cardSuit;
  	name = cardName;
 	value = cardValue;
