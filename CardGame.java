@@ -33,6 +33,11 @@ public class Card {
 		public String getPicture() {
 		    return picture;
 		}
+
+	// toString method - represents values as a string - By uriel
+public String toString() {
+    return name + " of " + suit + " (Value: " + value + ", Picture: " + picture + ")";
+}
 	
 }
 
